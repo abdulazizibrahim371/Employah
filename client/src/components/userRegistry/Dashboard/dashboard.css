@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@1&family=Montserrat&display=swap');
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow:auto;
+
+}
+
+.AppHeader{
+    font-family: "Montserrat", sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.AppFooter{
+    font-family: "Montserrat", sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.SideMenuAndPageContents{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.SideMenu{
+
+}
+
+.PageContents{
+    padding-top: 14px;
+    padding-left: 18px;
+    background-color: rgb(239, 237, 250);
+
+    
+}
+
+.AboutHeader{
+    color: brown;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.busStatement{
+    font-family: "Montserrat", sans-serif;
+    margin: 2em 0 0 0;
+    font-size: 1.5em;
+}
+
+.who{
+    font-family: "Montserrat", sans-serif;
+    margin: 2em 0 0 0;
+    font-size: 2.0em;
+    text-decoration: underline;
+
+}
+
+.who_statement{
+    font-family: "Montserrat", sans-serif;
+    margin: 0.5em 0 0 0;
+    font-size: 1.0em;
+}

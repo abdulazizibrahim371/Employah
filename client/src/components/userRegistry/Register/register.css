@@ -1,0 +1,90 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aliceblue;
+
+}
+.register-container {
+    font-size: 1em;
+    width: 300px;
+    height: 590px;
+    margin: 1.0em auto; /* horizontally center the element */
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px 7px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+  }
+  .register-h1{
+    font-size: 1.5em;
+    padding-top: 0.5em;
+  }
+
+  .register-image{
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  .label-container{
+    padding-top: 1.5em;
+    
+  }
+  
+
+  .forms label{
+    padding-right: 10em;
+    margin-top: 1em;
+  }
+
+
+  input{
+    width: 75%;
+    padding: 4px;
+    border: none;
+    background-color: rgba(173, 173, 173, 0.1);
+    border-radius: 2px;
+    }
+    input:focus{
+        outline: rgb(169, 221, 228);
+    }
+    
+    .register-inputs::placeholder{
+        font-size: smaller;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .register-inputs:hover{
+        background-color: rgb(218, 236, 244);
+
+    }
+    .btn{
+        padding-bottom: 2.0em ;
+        margin-top: 2.5em ;
+    }
+
+  .register-btn{
+    border: none;
+    padding: 0.3em 1em;
+    border-radius: 0.2em;
+    background-color: rgb(11, 114, 204);
+    color: aliceblue;
+    cursor: pointer;
+    
+  }
+  .register-btn:hover{
+    background-color: rgb(81, 196, 246);
+    color: aliceblue;
+    
+  }
+
+  .reg-login:hover{
+    background-color:rgb(218, 236, 244) ;
+  }
+  .reg-login{
+    cursor: pointer;
+    
+  }
+
+  
